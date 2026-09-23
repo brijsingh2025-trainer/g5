@@ -26,6 +26,28 @@ data.push(77);
 console.log(data);
 
 
+// Block of scope verified for let keyword
+
+let x = 10;
+
+console.log(x)
+
+let check = true;
+
+if(check) {
+
+    let x = 30;
+
+    console.log(x);
+
+
+}
+
+
+console.log(x);
+
+
+
 
 
 
